@@ -1,0 +1,9 @@
+language: node_js
+sudo: true
+node_js: "12"
+
+deploy:
+  provider: s3
+  bucket: "letmedraw-frontend"
+  skip_cleanup: true
+  region: us-east-1

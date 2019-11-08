@@ -22,7 +22,7 @@ const lineJoin = 'black';
 let id;
 
 window.onload = () => {
-    const socket = io.connect('http://172.20.10.2:3000');
+    const socket = io.connect('http://52.72.59.187:3000');
     socket.on('welcome', function (data) {
         console.log(data);
         id = data.id;
